@@ -2,7 +2,7 @@ import { Dimensions, StyleSheet } from "react-native";
 import { colors } from "@/global/styles/colors";
 const { width } = Dimensions.get("window");
 
-export const styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
@@ -104,3 +104,4 @@ export const styles = StyleSheet.create({
     marginTop: 6,
   },
 });
+export default styles;

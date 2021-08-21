@@ -11,4 +11,5 @@
       "@/*": ["*"] // resolve all modules prefixed with `@/` from `src` directory
     }
   },
+  "include": ["src"]
 }

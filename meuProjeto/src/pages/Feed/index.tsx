@@ -16,7 +16,7 @@ import {
 import { profiles } from "@/utils/profiles";
 import { posts } from "@/utils/posts";
 
-import { styles } from "./styles";
+import styles from "@/pages/Feed/styles";
 
 export function Feed() {
   return (
