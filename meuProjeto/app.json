@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "graduandofacil",
+    "slug": "graduandofacil",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "graduandofacil"
+}
