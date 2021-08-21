@@ -1,11 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import {
-  View,
-  Text,
-  Image,
-  FlatList
-} from 'react-native';
+import { View, Text, Image, FlatList } from "react-native";
 
 import {
   MessengerIcon,
@@ -15,14 +10,13 @@ import {
   LogoIcon,
   IgtvIcon,
   SaveIcon,
-  ProfileIcon
-} from '../../global/styles/icons';
+  ProfileIcon,
+} from "@/global/styles/icons";
 
+import { profiles } from "@/utils/profiles";
+import { posts } from "@/utils/posts";
 
-import { profiles } from '../../utils/profiles';
-import { posts } from '../../utils/posts';
-
-import { styles } from './styles';
+import { styles } from "./styles";
 
 export function Feed() {
   return (
@@ -46,7 +40,7 @@ export function Feed() {
           horizontal
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={styles.profiles}
-          keyExtractor={profile => profile.id}
+          keyExtractor={(profile) => profile.id}
           renderItem={({ item }) => (
             <View style={styles.profile}>
               <Image source={item.avatar} />
@@ -60,7 +54,7 @@ export function Feed() {
         data={posts}
         style={styles.posts}
         showsVerticalScrollIndicator={false}
-        keyExtractor={post => post.id}
+        keyExtractor={(post) => post.id}
         renderItem={({ item }) => (
           <View style={styles.post}>
             <View style={styles.postHeader}>
