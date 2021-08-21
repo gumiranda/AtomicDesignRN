@@ -45,17 +45,6 @@ const styles = StyleSheet.create({
   post: {
     marginTop: 52,
   },
-  postHeader: {
-    flexDirection: "row",
-    alignItems: "center",
-    marginBottom: 7,
-    paddingHorizontal: 10,
-  },
-  postAvatar: {
-    width: 32,
-    height: 32,
-    marginRight: 9,
-  },
   cover: {
     width,
   },
@@ -63,13 +52,6 @@ const styles = StyleSheet.create({
     width,
     paddingVertical: 15,
     paddingHorizontal: 10,
-  },
-  postUsername: {
-    fontSize: 12,
-    fontWeight: "bold",
-  },
-  postLocation: {
-    fontSize: 10,
   },
   postOptions: {
     flexDirection: "row",
